@@ -8,10 +8,11 @@ Repo ini dibuat dengan tujuan membantu siapa saja yang ingin mempelajari dan men
 ## Daftar Isi ##
 1. [Implementasi Kluster Kubernetes (Single Node)](./001.md)
 2. [Pemasangan Cert Manager](./002.md)
-3. (Opsional) Pemasangan Ingress Controller
-4. (Opsional) Pemasangan Ingress HTTP/TLS
-5. Implementasi Kong sebagai API Gateway
+3. [Pemasangan Ingress Controller](./003.md)
+4. (Opsional) Pemasangan Ingress HTTP/TLS - TBD
+5. Implementasi Kong sebagai API Gateway - TBD
 6. [Menggunakan Helm Charts](./006.md)
+7. Implementasi Rancher - TBD
 
 ## Tips & Trik ##
 - Cara mengubah label node
