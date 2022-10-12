@@ -1,0 +1,11 @@
+# General
+namespace: development
+replicas: 2
+
+# Images
+images:
+  name: nginx
+
+# Containers
+ports:
+ - 80

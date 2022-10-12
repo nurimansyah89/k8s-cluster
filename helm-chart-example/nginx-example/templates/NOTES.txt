@@ -1,0 +1,3 @@
+This is just a "{{ .Chart.Name }}" chart.
+
+Not to meant used by production.
