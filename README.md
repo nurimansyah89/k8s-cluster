@@ -1,4 +1,4 @@
-# Beliin Kopi Dev Channel - K8S Cluster Guidelines #
+# K8S Cluster Guidelines #
 Hello world!
 
 Repo ini dibuat dengan tujuan membantu siapa saja yang ingin mempelajari dan mengimplementasikan kluster **Kubernetes**.
