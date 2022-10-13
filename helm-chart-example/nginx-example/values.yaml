@@ -1,6 +1,6 @@
 # General
 namespace: development
-replicas: 2
+replicas: 0
 
 # Images
 images:
@@ -9,3 +9,9 @@ images:
 # Containers
 ports:
  - 80
+
+# Ingress
+ingress:
+  hostname: "k8s.local"
+  path: "/"
+  port: 80

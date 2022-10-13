@@ -6,7 +6,6 @@ metadata:
   labels:
 {{- include "labels" . | indent 4 }}
 spec:
-  type: NodePort
   selector:
 {{- include "labels" . | indent 4 }}
   ports:
