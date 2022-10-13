@@ -13,6 +13,7 @@ Repo ini dibuat dengan tujuan membantu siapa saja yang ingin mempelajari dan men
 5. Implementasi Kong sebagai API Gateway - TBD
 6. [Menggunakan Helm Charts](./006.md)
 7. Implementasi Rancher - TBD
+8. [Menggunakan HA Proxy Ingress Controller](./008.md)
 
 ## Tips & Trik ##
 - Cara mengubah label node
