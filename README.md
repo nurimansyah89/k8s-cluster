@@ -14,5 +14,4 @@ Repo ini dibuat dengan tujuan membantu siapa saja yang ingin mempelajari dan men
 6. [NGINX Sebagai Load Balancer](./006.md)
 
 ## Tips & Trik ##
-- Cara mengubah role pada node
-- Cara mengubah label pada node
+- [Cara mengubah role pada node](./007.md)
