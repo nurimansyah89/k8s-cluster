@@ -11,8 +11,8 @@ Repo ini dibuat dengan tujuan membantu siapa saja yang ingin mempelajari dan men
 3. [Pemasangan Ingress Controller](./003.md)
 4. (Opsional) Pemasangan Ingress HTTP/TLS - TBD
 5. [Menggunakan Helm Charts](./005.md)
-6. Implementasi Rancher - TBD
-7. [NGINX Sebagai Load Balancer](./007.md)
+6. [NGINX Sebagai Load Balancer](./006.md)
 
 ## Tips & Trik ##
-- Cara mengubah label node
+- Cara mengubah role pada node
+- Cara mengubah label pada node
