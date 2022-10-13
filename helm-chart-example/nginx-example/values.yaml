@@ -1,6 +1,5 @@
 # General
-namespace: development
-replicas: 0
+replicas: 2
 
 # Images
 images:
