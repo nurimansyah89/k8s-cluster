@@ -1,6 +1,6 @@
 # Deployment
 deployment:
-  replicas: 2
+  replicas: 1
   
   # Containers
   images:

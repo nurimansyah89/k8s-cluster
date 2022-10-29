@@ -2,14 +2,14 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: {{ .Chart.Name }}-ingress
-  annotations:
-    cert-manager.io/cluster-issuer: selfsigned-cluster-issuer
+  # annotations:
+  #   cert-manager.io/cluster-issuer: selfsigned-cluster-issuer
 spec:
   ingressClassName: nginx
-  tls:
-  - hosts:
-    - {{ .Values.ingress.hostname | quote }}
-    secretName: app-1-tls-secret
+  # tls:
+  # - hosts:
+  #   - {{ .Values.ingress.hostname | quote }}
+  #   secretName: app-1-tls-secret
   rules:
   - host: {{ .Values.ingress.hostname | quote }}
     http:
