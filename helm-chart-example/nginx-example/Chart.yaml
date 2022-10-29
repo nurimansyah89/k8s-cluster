@@ -1,6 +1,6 @@
 apiVersion: v2
-name: nginx-example
-description: Nginx example
+name: app-1
+description: NGINX App Example
 
 # A chart can be either an 'application' or a 'library' chart.
 #
