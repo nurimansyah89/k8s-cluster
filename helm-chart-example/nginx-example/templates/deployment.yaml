@@ -5,7 +5,7 @@ metadata:
   labels:
 {{- include "labels" . | indent 4 }}
 spec:
-  replicas: {{ .Values.replicas }}
+  replicas: {{ .Values.deployment.replicas }}
   selector:
     matchLabels:
 {{- include "labels" . | indent 6 }}
@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: {{ .Chart.Name }}
-        image: {{ .Values.images.name }}
+        image: {{ .Values.deployment.images.name }}
         ports:
-        {{- range .Values.ports }}
+        {{- range .Values.deployment.ports }}
         - containerPort: {{ . }}
         {{- end }}

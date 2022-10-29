@@ -1,16 +1,20 @@
-# General
-replicas: 2
+# Deployment
+deployment:
+  replicas: 2
+  
+  # Containers
+  images:
+    name: nginx
+  ports:
+    - 80
 
-# Images
-images:
-  name: nginx
-
-# Containers
-ports:
- - 80
+# Service
+service:
+  ports:
+    - 80
 
 # Ingress
 ingress:
-  hostname: "k8s.local"
+  hostname: "app-1.k8s.local"
   path: "/"
   port: 80
